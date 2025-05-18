@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto' , sans-serif;
+    color: #434455;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+/* HEADER */
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.header-list-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #2E2F42;    
+}
+
+.header-address-link {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* HERO */
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4D5AE5;
+}
+
+/* FEATURES */
+
+.features-section {}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {}
+
+.features-text {}
+
+/* PHOTO */
+
+.photo-card-section {}
+
+.card-title {}
+
+.card-list {}
+
+.card-item {}
+
+.card-subtitle {}
+
+.card-text {}
+
+/* PORTFOLIO */
+
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-subtitle {}
+
+.portfolio-text {}
+
+/* FOOTER */
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
