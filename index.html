@@ -36,13 +36,15 @@
   <body>
     <!-- HEADER -->
 
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="header-navigation">
         <a class="logo" href="./index.html"
-          >Web<span class="header-logo">Studio</span></a
+          >Web<span class="header-logo logo">Studio</span></a
         >
         <ul>
-          <li><a class="header-list-item" href="">Studio</a></li>
+          <li>
+            <a class="header-list-item header-active" href="">Studio</a>
+          </li>
           <li><a class="header-list-item" href="">Portfolio</a></li>
           <li><a class="header-list-item" href="">Contacts</a></li>
         </ul>
@@ -77,31 +79,31 @@
 
       <section class="features-section">
         <h2 hidden>Features</h2>
-        <ul>
-          <li class="features-item">
-            <h3 class="features-subtitle">Strategy</h3>
-            <p class="features-text">
+        <ul class="features-list">
+          <li class="features-list-item">
+            <h3 class="section-subtitle features-subtitle">Strategy</h3>
+            <p class="section-text features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li class="features-item">
-            <h3 class="features-subtitle">Punctuality</h3>
-            <p class="features-text">
+          <li class="features-list-item">
+            <h3 class="section-subtitle features-subtitle">Punctuality</h3>
+            <p class="section-text features-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li class="features-item">
-            <h3 class="features-subtitle">Diligence</h3>
-            <p class="features-text">
+          <li class="features-list-item">
+            <h3 class="section-subtitle features-subtitle">Diligence</h3>
+            <p class="section-text features-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li class="features-item">
-            <h3 class="features-subtitle">Technologies</h3>
-            <p class="features-text">
+          <li class="features-list-item">
+            <h3 class="section-subtitle features-subtitle">Technologies</h3>
+            <p class="section-text features-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -112,7 +114,7 @@
       <!-- SECTION3 -->
 
       <section class="photo-card-section">
-        <h2 class="card-title">Our Team</h2>
+        <h2 class="section-title card-title">Our Team</h2>
         <ul class="card-list">
           <li class="card-item">
             <img
@@ -121,8 +123,8 @@
               width="264"
               height="260"
             />
-            <h3 class="card-subtitle">Mark Guerrero</h3>
-            <p class="card-text">Product Designer</p>
+            <h3 class="section-subtitle card-subtitle">Mark Guerrero</h3>
+            <p class="section-text card-text">Product Designer</p>
           </li>
           <li class="card-item">
             <img
@@ -131,8 +133,8 @@
               width="264"
               height="260"
             />
-            <h3 class="card-subtitle">Tom Ford</h3>
-            <p class="card-text">Frontend Developer</p>
+            <h3 class="section-subtitle card-subtitle">Tom Ford</h3>
+            <p class="section-text card-text">Frontend Developer</p>
           </li>
           <li class="card-item">
             <img
@@ -141,8 +143,8 @@
               width="264"
               height="260"
             />
-            <h3 class="card-subtitle">Camila Garcia</h3>
-            <p class="card-text">Marketing</p>
+            <h3 class="section-subtitle card-subtitle">Camila Garcia</h3>
+            <p class="section-text card-text">Marketing</p>
           </li>
           <li class="card-item">
             <img
@@ -151,8 +153,8 @@
               width="264"
               height="260"
             />
-            <h3 class="card-subtitle">Daniel Wilson</h3>
-            <p class="card-text">UI Designer</p>
+            <h3 class="section-subtitle card-subtitle">Daniel Wilson</h3>
+            <p class="section-text card-text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -160,38 +162,72 @@
       <!-- SECTION 4 -->
 
       <section class="portfolio">
-        <h2 class="portfolio-title">Our Portfolio</h2>
+        <h2 class="section-title portfolio-title">Our Portfolio</h2>
 
         <ul class="portfolio-list">
           <li class="portfolio-item">
-            <img src="./images/banking.jpg" alt="Banking App" />
-            <h3 class="portfolio-subtitle">Banking App</h3>
-            <p class="portfolio-text">App</p>
+            <img
+              src="./images/banking.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-subtitle portfolio-subtitle">Banking App</h3>
+            <p class="section-text portfolio-text">App</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/payment.jpg" alt="Cashless Payment" />
-            <h3 class="portfolio-subtitle">Cashless Payment</h3>
-            <p class="portfolio-text">Marketing</p>
+            <img
+              src="./images/payment.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-subtitle portfolio-subtitle">
+              Cashless Payment
+            </h3>
+            <p class="section-text portfolio-text">Marketing</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/meditation.jpg" alt="Meditation App" />
-            <h3 class="portfolio-subtitle">Meditation App</h3>
-            <p class="portfolio-text">App</p>
+            <img
+              src="./images/meditation.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-subtitle portfolio-subtitle">Meditation App</h3>
+            <p class="section-text portfolio-text">App</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/taxi.jpg" alt="Taxi Service" />
-            <h3 class="portfolio-subtitle">Taxi Service</h3>
-            <p class="portfolio-text">Marketing</p>
+            <img
+              src="./images/taxi.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-subtitle portfolio-subtitle">Taxi Service</h3>
+            <p class="section-text portfolio-text">Marketing</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/illustrations.jpg" alt="Screen Illustrations" />
-            <h3 class="portfolio-subtitle">Screen Illustrations</h3>
-            <p class="portfolio-text">Design</p>
+            <img
+              src="./images/illustrations.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-subtitle portfolio-subtitle">
+              Screen Illustrations
+            </h3>
+            <p class="section-text portfolio-text">Design</p>
           </li>
           <li class="portfolio-item">
-            <img src="./images/online.jpg" alt="Online Courses" />
-            <h3 class="portfolio-subtitle">Online Courses</h3>
-            <p class="portfolio-text">Marketing</p>
+            <img
+              src="./images/online.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-subtitle portfolio-subtitle">Online Courses</h3>
+            <p class="section-text portfolio-text">Marketing</p>
           </li>
         </ul>
       </section>
@@ -201,7 +237,7 @@
 
     <footer class="footer">
       <a class="logo" href="./index.html"
-        >Web<span class="footer-logo">Studio</span></a
+        >Web<span class="footer-logo logo">Studio</span></a
       >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
