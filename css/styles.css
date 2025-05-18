@@ -24,7 +24,7 @@ button {
     font-family: 'Raleway' , sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -36,6 +36,7 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -79,9 +80,14 @@ button {
     color: #404BBF;
 }
 
-.header-active:active{
+.header-active:active,
+.header-active:focus {
     color: #404BBF;
 }
+
+/* .header-address {
+
+} */
 
 .header-address-link {
     font-size: 16px;
@@ -90,7 +96,8 @@ button {
     color: #434455;
 }
 
-.header-address-link:hover{
+.header-address-link:hover,
+.header-address-link:focus {
     color: #404BBF;
 }
 
@@ -118,7 +125,8 @@ button {
     background-color: #4D5AE5;
 }
 
-.hero-button:hover{
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -146,10 +154,10 @@ button {
 
 /* PHOTO */      /*?  DONE  ?*/
 
-/* .photo-card-section {
-
+.photo-card-section {
+    background-color: #F4F4FD;
 }
-
+/*
 .card-title {
   
 }
@@ -157,10 +165,10 @@ button {
 .card-list {
 
 }
-
+*/
 .card-item {
-
-} */
+    background-color: #FFFFFF;
+} 
 
 .card-subtitle {
     text-align: center;
